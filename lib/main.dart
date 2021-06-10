@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'ChatPage',
       theme: ThemeData(
 
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
       home: HomePage(),
     );
@@ -34,16 +34,16 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("ChatVibes"),backgroundColor: Colors.blue),
+      appBar: AppBar(title: Text("ChatVibes"),backgroundColor: Colors.blue[300]),
       body: Container(
         decoration: BoxDecoration(
             color: Colors.blue[100],
             // Set a border for each side of the box
             border: Border(
                 top: BorderSide(width:240, color: Colors.white70),
-                right: BorderSide(width: 60, color: Colors.blue[200]),
+                right: BorderSide(width: 60, color: Colors.blue[100]),
                 bottom: BorderSide(width: 240, color: Colors.white70),
-                left: BorderSide(width: 60, color: Colors.blue[200])
+                left: BorderSide(width: 60, color: Colors.blue[100])
             ),
         ),
         width: double.infinity,
@@ -59,7 +59,7 @@ class _HomePageState extends State<HomePage> {
             Text(_userObj.displayName),
             Text(_userObj.email),
             TextButton.icon(
-              icon: Icon(Icons.logout),
+              icon: Icon(Icons.logout,color: Colors.red,),
 
                 onPressed: () {
                   _googleSignIn.signOut().then((value) {
@@ -73,7 +73,7 @@ class _HomePageState extends State<HomePage> {
         )
             : Center(
           child: OutlineButton.icon(
-            icon: Icon(Icons.account_circle),
+            icon: Icon(Icons.account_circle, color: Colors.green,),
             label: Text("Login with Google"),
 
             onPressed: () {
