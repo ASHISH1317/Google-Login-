@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "440640834218",
+    "project_id": "chatvibes1",
+    "storage_bucket": "chatvibes1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440640834218:android:90d4d409b5fb5eddadded3",
+        "android_client_info": {
+          "package_name": "ashish.chatvibes.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440640834218-0q2icpc5o3kjc1so0cropj1al6t6qag4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ashish.chatvibes.com",
+            "certificate_hash": "232c4121d85bcf13b7dd5ca7a1f8b4ab18c96676"
+          }
+        },
+        {
+          "client_id": "440640834218-llqie7tckndidv486rjcal4us79tn6id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuOCKMS_sSibL9e9bwqSvc6UQH62FPRb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440640834218-llqie7tckndidv486rjcal4us79tn6id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
